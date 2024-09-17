@@ -1,95 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<orarend>
-    <ora id = 01, tipus = "eloadas">
+<DA_orarend>
+    <ora id = "01" tipus = "eloadas">
         <targy>Oracle Rendszergazda</targy>
-        <idopont nap = "Hetfo", tol = "8" ig = "10"\>
+        <idopont>
+            <nap>Hetfo</nap>
+            <tol>8</tol>
+            <ig>10</ig>
+        </idopont>
         <helyszin>In/103</helyszin>
         <oktato>Dr. Kovacs Laszlo</oktato>
         <szak>Korszeru Webtechnologiak</szak>
     </ora>
 
-    <ora id = 02, tipus = "eloadas">
+    <ora id = "02" tipus = "eloadas">
         <targy>Korszeru informacios technologiak</targy>
-        <idopont nap = "Hetfo", tol = "12" ig = "14"\>
+        <idopont>
+            <nap>Hetfo</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
         <helyszin>In/103</helyszin>
         <oktato>Arvai Laszlo</oktato>
         <szak>Korszeru Webtechnologiak</szak>
     </ora>
-    <ora id = 03, tipus = "eloadas">
+    <ora id = "03" tipus = "eloadas">
         <targy>Mobilprogramozás alapok</targy>
-        <idopont nap = "Hetfo", tol = "16" ig = "18"\>
+        <idopont>
+            <nap>Hetfo</nap>
+            <tol>16</tol>
+            <ig>18</ig>
+        </idopont>
         <helyszin>In/102</helyszin>
         <oktato>Dr. Agardi Anita</oktato>
         <szak>Korszeru Webtechnologiak</szak>
     </ora>
-    <ora id = 03, tipus = "gyakorlat">
+    <ora id = "03" tipus = "gyakorlat">
         <targy>Mobilprogramozás alapok</targy>
-        <idopont nap = "Hetfo", tol = "18" ig = "20"\>
+        <idopont>
+            <nap>Hetfo</nap>
+            <tol>18</tol>
+            <ig>20</ig>
+        </idopont>
         <helyszin>In/102</helyszin>
         <oktato>Dr. Agardi Anita</oktato>
         <szak>Korszeru Webtechnologiak</szak>
     </ora>
 
 
-    <ora id = 04, tipus = "gyakorlat">
+    <ora id = "04" tipus = "gyakorlat">
         <targy>Integralt Vallalati rendszerek</targy>
-        <idopont nap = "Kedd", tol = "8" ig = "10"\>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>8</tol>
+            <ig>10</ig>
+        </idopont>
         <helyszin>In/203</helyszin>
         <oktato>Dr. Kulcsarne Forrai Monika</oktato>
         <szak>Mernokinformatikus</szak>
     </ora>
     
-    <ora id = 05, tipus = "eloadas">
+    <ora id = "05" tipus = "eloadas">
         <targy>Adatkezeles XML-ben</targy>
-        <idopont nap = "Kedd", tol = "10" ig = "12"\>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>10</tol>
+            <ig>12</ig>
+        </idopont>
         <helyszin>In/103</helyszin>
         <oktato>Dr. Bednarik Laszlo</oktato>
         <szak>Korszeru Webtechnologiak</szak>
     </ora>
-    <ora id = 05, tipus = "gyakorlat">
+    <ora id = "05" tipus = "gyakorlat">
         <targy>Adatkezeles XML-ben</targy>
-        <idopont nap = "Kedd", tol = "12" ig = "14"\>
+       <idopont>
+            <nap>Kedd</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
         <helyszin>In/103</helyszin>
         <oktato>Dr. Bednarik Laszlo</oktato>
         <szak>Korszeru Webtechnologiak</szak>
     </ora>
 
-    <ora id = 01, tipus = "gyakorlat">
+    <ora id = "01" tipus = "gyakorlat">
         <targy>Oracle rendszergazda</targy>
-        <idopont nap = "Kedd", tol = "13" ig = "15"\>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>13</tol>
+            <ig>15</ig>
+        </idopont>
         <helyszin>In/202</helyszin>
         <oktato>Szucs Miklos</oktato>
         <szak>Korszeru Webtechnologiak</szak>
     </ora>
-    <ora id = 04, tipus = "eloadas">
+    <ora id = "04" tipus = "eloadas">
         <targy>Integralt Vallalati rendszerek</targy>
-        <idopont nap = "Kedd", tol = "14" ig = "16"\>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </idopont>
         <helyszin>A1/226</helyszin>
         <oktato>Dr. Dadvandipour Samad</oktato>
         <szak>Mernokinformatikus</szak>
     </ora>
-        <ora id = 02, tipus = "gyakorlat">
+    <ora id = "02" tipus = "gyakorlat">
         <targy>Korszeru informacios technologiak</targy>
-        <idopont nap = "Kedd", tol = "16" ig = "18"\>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>16</tol>
+            <ig>18</ig>
+        </idopont>
         <helyszin>In/15</helyszin>
         <oktato>Soos Robert</oktato>
         <szak>Korszeru Webtechnologiak</szak>
     </ora>
 
 
-    <ora id = 06, tipus = "gyakorlat">
+    <ora id = "06" tipus = "gyakorlat">
         <targy>Mesterseges Intelligencia</targy>
-        <idopont nap = "Szerda", tol = "10" ig = "12"\>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>10</tol>
+            <ig>12</ig>
+        </idopont>
         <helyszin>X</helyszin>
         <oktato>Fazekas Levente</oktato>
         <szak>Mernokinformatikus</szak>
     </ora>
-    <ora id = 06, tipus = "eloadas">
+    <ora id = "06" tipus = "eloadas">
         <targy>Mesterseges Intelligencia</targy>
-        <idopont nap = "Szerda", tol = "16" ig = "18"\>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>16</tol>
+            <ig>18</ig>
+        </idopont>
         <helyszin>XXXII</helyszin>
         <oktato>Kunne Dr. Tamas Judit</oktato>
         <szak>Mernokinformatikus</szak>
     </ora>
-</orarend>
+</DA_orarend>
