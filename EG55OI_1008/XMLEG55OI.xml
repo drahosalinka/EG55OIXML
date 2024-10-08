@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EG55OI_vendeglatas xmlns:xsi="http://www.w3.org">
+
+<etterem ekod="e1">
+    <nev>Trófea</nev>
+    <cim>
+        <varos>Budapest</varos>
+        <utca>Visegrádi utca</utca>
+        <hazszam>13.</hazszam>
+    </cim>
+    <csillag>4</csillag>
+</etterem>
+
+<etterem ekod="e2">
+    <nev>Gundel</nev>
+    <cim>
+        <varos></varos>
+        <utca></utca>
+        <hazszam></hazszam>
+    </cim>
+    <csillag></csillag>
+</etterem>
+
+<foszakacs fkod="f1" e_f="e1">
+    <nev>Havas Viktor</nev>
+    <eletkor>48</eletkor>
+    <vegzettseg>Le Cordon Bleu</vegzettseg>
+    <vegzettseg>Szakközépiskola</vegzettseg>
+    <vegzettseg>Szakácsképző</vegzettseg>
+</foszakacs>
+
+<szakacs>
