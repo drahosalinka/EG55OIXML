@@ -30,4 +30,12 @@
     <vegzettseg>Szakácsképző</vegzettseg>
 </foszakacs>
 
-<szakacs>
+<gyakornok gykod="gy1", e_gy="e1">
+    <nev>Boda Dániel</nev>
+    <gyakorlat>
+        <kezdete>2024.10.08.</kezdete>
+        <idotartama>3 hónap</idotartama>
+    </gyakorlat>
+    <muszak>délelőtt</muszak>
+    <muszak>délután</muszak>
+</gyakornok>
