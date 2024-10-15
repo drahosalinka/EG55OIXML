@@ -77,7 +77,6 @@
                             <xs:element name="osszeg" type="OsszegTipus"/>
                             <xs:element name="etel" type="xs:string"/>
                         </xs:sequence>
-                        <xs:attribute name="kod" type="xs:string" use="required"/>
                         <xs:attribute name="ekod" type="xs:string" use="required"/>
                         <xs:attribute name="vkod" type="xs:string" use="required"/>
                     </xs:complexType>
