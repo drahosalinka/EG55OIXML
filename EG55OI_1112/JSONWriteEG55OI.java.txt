@@ -24,7 +24,7 @@ public class JSONWriteEG55OI {
 	
 	private static void fileWrite(JSONObject jsonObject, String fileName) {
 		try(FileWriter writer = new FileWriter(fileName)){
-			writer.write(indentJson(JSONObject.toJSONString()));
+			writer.write(indentJson(jsonObject.toJSONString()));
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
