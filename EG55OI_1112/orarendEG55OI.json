@@ -1,0 +1,162 @@
+{
+	"DA_orarend": {
+		"ora": [
+			{
+				"targy": "Oracle Rendszergazda",
+				"idopont": {
+					"nap": "Hetfo",
+					"tol": "8",
+					"ig": "10"
+				},
+				"helyszin": "In/103",
+				"oktato": "Dr. Kovacs Laszlo",
+				"szak": "Korszeru Webtechnologiak",
+				"_id": "01",
+				"_tipus": "eloadas"
+			},
+			{
+				"targy": "Korszeru informacios technologiak",
+				"idopont": {
+					"nap": "Hetfo",
+					"tol": "12",
+					"ig": "14"
+				},
+				"helyszin": "In/103",
+				"oktato": "Arvai Laszlo",
+				"szak": "Korszeru Webtechnologiak",
+				"_id": "02",
+				"_tipus": "eloadas"
+			},
+			{
+				"targy": "Mobilprogramozás alapok",
+				"idopont": {
+					"nap": "Hetfo",
+					"tol": "16",
+					"ig": "18"
+				},
+				"helyszin": "In/102",
+				"oktato": "Dr. Agardi Anita",
+				"szak": "Korszeru Webtechnologiak",
+				"_id": "03",
+				"_tipus": "eloadas"
+			},
+			{
+				"targy": "Mobilprogramozás alapok",
+				"idopont": {
+					"nap": "Hetfo",
+					"tol": "18",
+					"ig": "20"
+				},
+				"helyszin": "In/102",
+				"oktato": "Dr. Agardi Anita",
+				"szak": "Korszeru Webtechnologiak",
+				"_id": "03",
+				"_tipus": "gyakorlat"
+			},
+			{
+				"targy": "Integralt Vallalati rendszerek",
+				"idopont": {
+					"nap": "Kedd",
+					"tol": "8",
+					"ig": "10"
+				},
+				"helyszin": "In/203",
+				"oktato": "Dr. Kulcsarne Forrai Monika",
+				"szak": "Mernokinformatikus",
+				"_id": "04",
+				"_tipus": "gyakorlat"
+			},
+			{
+				"targy": "Adatkezeles XML-ben",
+				"idopont": {
+					"nap": "Kedd",
+					"tol": "10",
+					"ig": "12"
+				},
+				"helyszin": "In/103",
+				"oktato": "Dr. Bednarik Laszlo",
+				"szak": "Korszeru Webtechnologiak",
+				"_id": "05",
+				"_tipus": "eloadas"
+			},
+			{
+				"targy": "Adatkezeles XML-ben",
+				"idopont": {
+					"nap": "Kedd",
+					"tol": "12",
+					"ig": "14"
+				},
+				"helyszin": "In/103",
+				"oktato": "Dr. Bednarik Laszlo",
+				"szak": "Korszeru Webtechnologiak",
+				"_id": "05",
+				"_tipus": "gyakorlat"
+			},
+			{
+				"targy": "Oracle rendszergazda",
+				"idopont": {
+					"nap": "Kedd",
+					"tol": "13",
+					"ig": "15"
+				},
+				"helyszin": "In/202",
+				"oktato": "Szucs Miklos",
+				"szak": "Korszeru Webtechnologiak",
+				"_id": "01",
+				"_tipus": "gyakorlat"
+			},
+			{
+				"targy": "Integralt Vallalati rendszerek",
+				"idopont": {
+					"nap": "Kedd",
+					"tol": "14",
+					"ig": "16"
+				},
+				"helyszin": "A1/226",
+				"oktato": "Dr. Dadvandipour Samad",
+				"szak": "Mernokinformatikus",
+				"_id": "04",
+				"_tipus": "eloadas"
+			},
+			{
+				"targy": "Korszeru informacios technologiak",
+				"idopont": {
+					"nap": "Kedd",
+					"tol": "16",
+					"ig": "18"
+				},
+				"helyszin": "In/15",
+				"oktato": "Soos Robert",
+				"szak": "Korszeru Webtechnologiak",
+				"_id": "02",
+				"_tipus": "gyakorlat"
+			},
+			{
+				"targy": "Mesterseges Intelligencia",
+				"idopont": {
+					"nap": "Szerda",
+					"tol": "10",
+					"ig": "12"
+				},
+				"helyszin": "X",
+				"oktato": "Fazekas Levente",
+				"szak": "Mernokinformatikus",
+				"_id": "06",
+				"_tipus": "gyakorlat"
+			},
+			{
+				"targy": "Mesterseges Intelligencia",
+				"idopont": {
+					"nap": "Szerda",
+					"tol": "16",
+					"ig": "18"
+				},
+				"helyszin": "XXXII",
+				"oktato": "Kunne Dr. Tamas Judit",
+				"szak": "Mernokinformatikus",
+				"_id": "06",
+				"_tipus": "eloadas"
+			}
+		]
+	}
+}
