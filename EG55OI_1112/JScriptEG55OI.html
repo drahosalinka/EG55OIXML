@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Órarend</title>
+</head>
+<body>
+    <div id="orarend"></div>
+
+    <script>
+        const orarendEG55OI = {
+            "DA_orarend": {
+                "ora": [
+                    {
+                        "targy": "Oracle Rendszergazda",
+                        "idopont": {
+                            "nap": "Hetfo",
+                            "tol": "8",
+                            "ig": "10"
+                        },
+                        "helyszin": "In/103",
+                        "oktato": "Dr. Kovacs Laszlo",
+                        "szak": "Korszeru Webtechnologiak",
+                        "_id": "01",
+                        "_tipus": "eloadas"
+                    },
+                ]
+            }
+        };
+
+        function displaySchedule(data) {
+            const container = document.getElementById('orarend');
+            data.DA_orarend.ora.forEach(course => {
+                const courseDiv = document.createElement('div');
+                courseDiv.innerHTML = `
+                    <h3>${course._id} Órarend 2024</h3>
+                    <p><strong>Tárgy:</strong> ${course.targy}</p>
+                    <p><strong>Időpont:</strong> ${course.idopont.nap}, ${course.idopont.tol}:00 - ${course.idopont.ig}:00</p>
+                    <p><strong>Helyszín:</strong> ${course.helyszin}</p>
+                    <p><strong>Oktató:</strong> ${course.oktato}</p>
+                    <p><strong>Szak:</strong> ${course.szak}</p>
+                    <hr>
+                `;
+                container.appendChild(courseDiv);
+            });
+        }
+
+        displaySchedule(orarendEG55OI);
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Órarend</title>
+</head>
+<body>
+    <div id="orarend"></div>
+
+    <script>
+        const orarendEG55OI = {
+            "DA_orarend": {
+                "ora": [
+                    {
+                        "targy": "Oracle Rendszergazda",
+                        "idopont": {
+                            "nap": "Hetfo",
+                            "tol": "8",
+                            "ig": "10"
+                        },
+                        "helyszin": "In/103",
+                        "oktato": "Dr. Kovacs Laszlo",
+                        "szak": "Korszeru Webtechnologiak",
+                        "_id": "01",
+                        "_tipus": "eloadas"
+                    },
+                ]
+            }
+        };
+
+        function displaySchedule(data) {
+            const container = document.getElementById('orarend');
+            data.DA_orarend.ora.forEach(course => {
+                const courseDiv = document.createElement('div');
+                courseDiv.innerHTML = `
+                    <h3>${course._id} Órarend 2024</h3>
+                    <p><strong>Tárgy:</strong> ${course.targy}</p>
+                    <p><strong>Időpont:</strong> ${course.idopont.nap}, ${course.idopont.tol}:00 - ${course.idopont.ig}:00</p>
+                    <p><strong>Helyszín:</strong> ${course.helyszin}</p>
+                    <p><strong>Oktató:</strong> ${course.oktato}</p>
+                    <p><strong>Szak:</strong> ${course.szak}</p>
+                    <hr>
+                `;
+                container.appendChild(courseDiv);
+            });
+        }
+
+        displaySchedule(orarendEG55OI);
+    </script>
+</body>
+</html>
