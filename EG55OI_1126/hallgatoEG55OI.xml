@@ -1,0 +1,23 @@
+<class>
+    <student id="01">
+        <vezeteknev>Drahos</vezeteknev>
+        <keresztnev>Alinka</keresztnev>
+        <becenev>Alin</becenev>
+        <kor>21</kor>
+        <osztondij>37500</osztondij>
+    </student>
+    <student id="02">
+        <vezeteknev>Toth</vezeteknev>
+        <keresztnev>Marcell</keresztnev>
+        <becenev>Marci</becenev>
+        <kor>20</kor>
+        <osztondij>16000</osztondij>
+    </student>
+    <student id="03">
+        <vezeteknev>Magas</vezeteknev>
+        <keresztnev>Réka</keresztnev>
+        <becenev>Rékuckó</becenev>
+        <kor>22</kor>
+        <osztondij>21000</osztondij>
+    </student>
+</class>
