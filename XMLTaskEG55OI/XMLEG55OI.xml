@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Megrendelések>
+    <!-- Első megrendelés -->
+    <Megrendelés id="1">
+        <FizetésiMód>Bankkártya</FizetésiMód>
+        <ÁtvételIdőpontja>
+            <év>2024</év>
+            <honap>12</honap>
+            <nap>6</nap>
+        </ÁtvételIdőpontja>
+        <Tipus>Magán</Tipus>
+        <Megrendelő>
+            <Név>Kovács Anna</Név>
+            <Email>anna.kovacs@gmail.com</Email>
+            <Telefon>+36703332211</Telefon>
+        </Megrendelő>
+        <!-- Első megrendelés csokrai -->
+        <Csokor id="1">
+            <Alkalom>Esküvő</Alkalom>
+            <Ár>24000</Ár>
+            <Méret>Közepes</Méret>
+            <Virág>
+                <Fajta>Rózsa</Fajta>
+                <Szín>Vörös</Szín>
+                <Méret>Közepes</Méret>
+                <darab>8</darab>
+            </Virág>
+            <Virág>
+                <Fajta>Lizianthusz</Fajta>
+                <Szín>Fehér</Szín>
+                <Méret>Kicsi</Méret>
+                <darab>10</darab>
+            </Virág>
+            <Virág>
+                <Fajta>Szegfű</Fajta>
+                <Szín>Vörös</Szín>
+                <Méret>Közepes</Méret>
+                <darab>3</darab>
+            </Virág>
+            <Virág>
+                <Fajta>Szegfű</Fajta>
+                <Szín>Fehér</Szín>
+                <Méret>Közepes</Méret>
+                <darab>5</darab>
+            </Virág>
+            <Szalag>
+                <Szín>Arany</Szín>
+                <Vastagság>2 cm</Vastagság>
+                <Méterár>500</Méterár>
+            </Szalag>
+        </Csokor>
+        <Csokor id="2">
+            <Alkalom>Koszorúslány csokor</Alkalom>
+            <Ár>16000</Ár>
+            <Méret>Kis</Méret>
+            <Virág>
+                <Fajta>Lizianthusz</Fajta>
+                <Szín>Fehér</Szín>
+                <Méret>Kicsi</Méret>
+                <darab>5</darab>
+            </Virág>
+            <Virág>
+                <Fajta>Szegfű</Fajta>
+                <Szín>Vörös</Szín>
+                <Méret>Kicsi</Méret>
+                <darab>2</darab>
+            </Virág>
+            <Virág>
+                <Fajta>Szegfű</Fajta>
+                <Szín>Fehér</Szín>
+                <Méret>Kicsi</Méret>
+                <darab>4</darab>
+            </Virág>
+            <Szalag>
+                <Szín>Piros</Szín>
+                <Vastagság>2 cm</Vastagság>
+                <Méterár>450</Méterár>
+            </Szalag>
+        </Csokor>
+        <Csokor id="3">
+            <Alkalom>Koszorúslány csokor</Alkalom>
+            <Ár>16000</Ár>
+            <Méret>Kis</Méret>
+            <Virág>
+                <Fajta>Lizianthusz</Fajta>
+                <Szín>Fehér</Szín>
+                <Méret>Kicsi</Méret>
+                <darab>5</darab>
+            </Virág>
+            <Virág>
+                <Fajta>Szegfű</Fajta>
+                <Szín>Vörös</Szín>
+                <Méret>Kicsi</Méret>
+                <darab>4</darab>
+            </Virág>
+            <Virág>
+                <Fajta>Szegfű</Fajta>
+                <Szín>Fehér</Szín>
+                <Méret>Kicsi</Méret>
+                <darab>2</darab>
+            </Virág>
+            <Szalag>
+                <Szín>Piros</Szín>
+                <Vastagság>2 cm</Vastagság>
+                <Méterár>450</Méterár>
+            </Szalag>
+        </Csokor>
+    </Megrendelés>
+    
+    <!-- Második megrendelés -->
+    <Megrendelés id="2">
+        <FizetésiMód>Készpénz</FizetésiMód>
+        <ÁtvételIdőpontja>
+            <év>2024</év>
+            <honap>12</honap>
+            <nap>2</nap>
+        </ÁtvételIdőpontja>
+        <Tipus>Magán</Tipus>
+        <Megrendelő>
+            <Név>Nagy Péter</Név>
+            <Email>peter.nagy11@gmail.com</Email>
+            <Telefon>+36203456677</Telefon>
+        </Megrendelő>
+        <Csokor id="4">
+            <Alkalom>Diplomaosztó</Alkalom>
+            <Ár>17000</Ár>
+            <Méret>Nagy</Méret>
+            <Virág>
+                <Fajta>Hortenzia</Fajta>
+                <Szín>Kék</Szín>
+                <Méret>Nagy</Méret>
+                <darab>3</darab>
+            </Virág>
+            <Virág>
+                <Fajta>Hortenzia</Fajta>
+                <Szín>Lila</Szín>
+                <Méret>Nagy</Méret>
+                <darab>3</darab>
+            </Virág>
+            <Virág>
+                <Fajta>Liliom</Fajta>
+                <Szín>Rózsaszín</Szín>
+                <Méret>Közepes</Méret>
+                <darab>7</darab>
+            </Virág>
+            <Szalag>
+                <Szín>Rózsaszín</Szín>
+                <Vastagság>3 cm</Vastagság>
+                <Méterár>700</Méterár>
+            </Szalag>
+        </Csokor>
+    </Megrendelés>
+    
+    <!-- Harmadik megrendelés -->
+    <Megrendelés id="3">
+        <FizetésiMód>Átutalás</FizetésiMód>
+        <ÁtvételIdőpontja>
+            <év>2024</év>
+            <honap>12</honap>
+            <nap>18</nap>
+        </ÁtvételIdőpontja>
+        <Tipus>Céges</Tipus>
+        <Megrendelő>
+            <Név>Tóth Mária</Név>
+            <Email>tothma@bosch.com</Email>
+            <Telefon>+36707775533</Telefon>
+        </Megrendelő>
+        <Csokor id="5">
+            <Alkalom>Céges vacsora</Alkalom>
+            <Ár>12000</Ár>
+            <Méret>Kis</Méret>
+            <Virág>
+                <Fajta>Lizianthus</Fajta>
+                <Szín>Rózsaszín</Szín>
+                <Méret>Kis</Méret>
+                <darab>3</darab>
+            </Virág>
+            <Virág>
+                <Fajta>Orchidea</Fajta>
+                <Szín>Fehér</Szín>
+                <Méret>Kis</Méret>
+                <darab>6</darab>
+            </Virág>
+            <Virág>
+                <Fajta>Rózsa</Fajta>
+                <Szín>Rózsaszín</Szín>
+                <Méret>Közepes</Méret>
+                <darab>9</darab>
+            </Virág>
+            <Szalag>
+                <Szín>Fehér</Szín>
+                <Vastagság>2 cm</Vastagság>
+                <Méterár>450</Méterár>
+            </Szalag>
+        </Csokor>
+        <Csokor id="6">
+            <Alkalom>Céges vacsora</Alkalom>
+            <Ár>12000</Ár>
+            <Méret>Kis</Méret>
+            <Virág>
+                <Fajta>Lizianthusz</Fajta>
+                <Szín>Fehér</Szín>
+                <Méret>Kis</Méret>
+                <darab>3</darab>
+            </Virág>
+            <Virág>
+                <Fajta>Kála</Fajta>
+                <Szín>Sárga</Szín>
+                <Méret>Kis</Méret>
+                <darab>6</darab>
+            </Virág>
+            <Virág>
+                <Fajta>Rózsa</Fajta>
+                <Szín>Sárga</Szín>
+                <Méret>Közepes</Méret>
+                <darab>9</darab>
+            </Virág>
+            <Szalag>
+                <Szín>Sárga</Szín>
+                <Vastagság>2 cm</Vastagság>
+                <Méterár>450</Méterár>
+            </Szalag>
+        </Csokor>
+    </Megrendelés>
+</Megrendelések>
