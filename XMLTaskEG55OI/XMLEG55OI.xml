@@ -23,6 +23,7 @@
             <Virág>
                 <Fajta>Rózsa</Fajta>
                 <Szín>Vörös</Szín>
+                <Szín>Fehér</Szín>
                 <Méret>Közepes</Méret>
                 <darab>8</darab>
             </Virág>
@@ -35,6 +36,7 @@
             <Virág>
                 <Fajta>Szegfű</Fajta>
                 <Szín>Vörös</Szín>
+                <Szín>Cirka</Szín>
                 <Méret>Közepes</Méret>
                 <darab>3</darab>
             </Virág>
@@ -63,7 +65,7 @@
             <Virág>
                 <Fajta>Szegfű</Fajta>
                 <Szín>Vörös</Szín>
-                <Méret>Kicsi</Méret>
+                <Méret>Közepes</Méret>
                 <darab>2</darab>
             </Virág>
             <Virág>
@@ -91,7 +93,7 @@
             <Virág>
                 <Fajta>Szegfű</Fajta>
                 <Szín>Vörös</Szín>
-                <Méret>Kicsi</Méret>
+                <Méret>Közepes</Méret>
                 <darab>4</darab>
             </Virág>
             <Virág>
@@ -141,6 +143,7 @@
             <Virág>
                 <Fajta>Liliom</Fajta>
                 <Szín>Rózsaszín</Szín>
+                <Szín>Sárga</Szín>
                 <Méret>Közepes</Méret>
                 <darab>7</darab>
             </Virág>
@@ -207,6 +210,7 @@
             <Virág>
                 <Fajta>Kála</Fajta>
                 <Szín>Sárga</Szín>
+                <Szín>Fehér</Szín>
                 <Méret>Kis</Méret>
                 <darab>6</darab>
             </Virág>
