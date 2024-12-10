@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-    <!-- Gyökérelem -->
-    <xs:element name="Megrendelések">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="Megrendelés" type="MegrendelésTípus" maxOccurs="unbounded"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-
-    <!-- Megrendelés típusa -->
-    <xs:complexType name="MegrendelésTípus">
-        <xs:sequence>
-            <xs:element name="FizetésiMód" type="FizetésiMódTípus"/>
-            <xs:element name="ÁtvételIdőpontja" type="IdőpontTípus"/>
-            <xs:element name="Tipus" type="xs:string"/>
-            <xs:element name="Megrendelő" type="MegrendelőTípus"/>
-            <xs:element name="Csokor" type="CsokorTípus" maxOccurs="unbounded"/>
-        </xs:sequence>
-        <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
-    </xs:complexType>
-
-    <!-- Fizetési mód típusa -->
+    <!-- Egyszerű típusok -->
     <xs:simpleType name="FizetésiMódTípus">
         <xs:restriction base="xs:string">
             <xs:enumeration value="Bankkártya"/>
@@ -30,17 +9,27 @@
             <xs:enumeration value="Átutalás"/>
         </xs:restriction>
     </xs:simpleType>
+    <xs:simpleType name="TelefonTípus">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\+36[0-9]{9}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="MéretTípus">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Kicsi"/>
+            <xs:enumeration value="Közepes"/>
+            <xs:enumeration value="Nagy"/>
+        </xs:restriction>
+    </xs:simpleType>
 
-    <!-- Időpont típusa -->
+    <!-- Komplex típusok -->
     <xs:complexType name="IdőpontTípus">
         <xs:sequence>
-            <xs:element name="év" type="xs:gYear"/>
-            <xs:element name="honap" type="xs:gMonth"/>
-            <xs:element name="nap" type="xs:positiveInteger"/>
+            <xs:element name="Év" type="xs:gYear"/>
+            <xs:element name="Hónap" type="xs:gMonth"/>
+            <xs:element name="Nap" type="xs:positiveInteger"/>
         </xs:sequence>
     </xs:complexType>
-
-    <!-- Megrendelő típusa -->
     <xs:complexType name="MegrendelőTípus">
         <xs:sequence>
             <xs:element name="Név" type="xs:string"/>
@@ -48,15 +37,23 @@
             <xs:element name="Telefon" type="TelefonTípus"/>
         </xs:sequence>
     </xs:complexType>
-
-    <!-- Telefon típusa -->
-    <xs:simpleType name="TelefonTípus">
-        <xs:restriction base="xs:string">
-            <xs:pattern value="\+36[0-9]{9}"/>
-        </xs:restriction>
-    </xs:simpleType>
-
-    <!-- Csokor típusa -->
+    <xs:complexType name="VirágTípus">
+        <xs:sequence>
+            <xs:element name="Fajta" type="xs:string"/>
+            <xs:element name="Szín" type="xs:string"/>
+            <xs:element name="Méret" type="MéretTípus"/>
+            <xs:element name="Darab" type="xs:positiveInteger"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="SzalagTípus">
+        <xs:sequence>
+            <xs:element name="Szín" type="xs:string"/>
+            <xs:element name="Vastagság" type="xs:string"/>
+            <xs:element name="Méterár" type="xs:positiveInteger"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+    </xs:complexType>
     <xs:complexType name="CsokorTípus">
         <xs:sequence>
             <xs:element name="Alkalom" type="xs:string"/>
@@ -67,33 +64,42 @@
         </xs:sequence>
         <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
     </xs:complexType>
-
-    <!-- Virág típusa -->
-    <xs:complexType name="VirágTípus">
+    <xs:complexType name="MegrendelésTípus">
         <xs:sequence>
-            <xs:element name="Fajta" type="xs:string"/>
-            <xs:element name="Szín" type="xs:string"/>
-            <xs:element name="Méret" type="MéretTípus"/>
-            <xs:element name="darab" type="xs:positiveInteger"/>
+            <xs:element name="FizetésiMód" type="FizetésiMódTípus"/>
+            <xs:element name="ÁtvételIdőpontja" type="IdőpontTípus"/>
+            <xs:element name="Típus" type="xs:string"/>
+            <xs:element name="Megrendelő" type="MegrendelőTípus"/>
+            <xs:element name="Csokor" type="CsokorTípus" maxOccurs="unbounded"/>
         </xs:sequence>
+        <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
     </xs:complexType>
 
-    <!-- Szalag típusa -->
-    <xs:complexType name="SzalagTípus">
-        <xs:sequence>
-            <xs:element name="Szín" type="xs:string"/>
-            <xs:element name="Vastagság" type="xs:string"/>
-            <xs:element name="Méterár" type="xs:positiveInteger"/>
-        </xs:sequence>
-    </xs:complexType>
+    <!-- Kulcsok -->
+    <xs:key name="MegrendelésID">
+        <xs:selector xpath="Megrendelés"/>
+        <xs:field xpath="@id"/>
+    </xs:key>
+    <xs:key name="CsokorID">
+        <xs:selector xpath="Megrendelés/Csokor"/>
+        <xs:field xpath="@id"/>
+    </xs:key>
+    <xs:key name="VirágID">
+        <xs:selector xpath="Megrendelés/Csokor/Virág"/>
+        <xs:field xpath="@id"/>
+    </xs:key>
+    <xs:key name="SzalagID">
+        <xs:selector xpath="Megrendelés/Csokor/Szalag"/>
+        <xs:field xpath="@id"/>
+    </xs:key>
 
-    <!-- Méret típusa -->
-    <xs:simpleType name="MéretTípus">
-        <xs:restriction base="xs:string">
-            <xs:enumeration value="Kicsi"/>
-            <xs:enumeration value="Közepes"/>
-            <xs:enumeration value="Nagy"/>
-        </xs:restriction>
-    </xs:simpleType>
+    <!-- Gyökérelem -->
+    <xs:element name="Megrendelések">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Megrendelés" type="MegrendelésTípus" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 
 </xs:schema>
